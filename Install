@@ -1,0 +1,10 @@
+今天在下载非官方版的numpy和sicpy包的时候，发现了win32版本的和amd64版本的，当时以为windows 64位系统就应该下amd64版本的，结果出错的，就去查了一下。
+版本的含义
+Win32 -> 指的就是Windows系统； 
+64 bit- > 指的是Windows是64位的； 
+AMD64 -> 指的就是 CPU是x64的打开IDLE，看第一行提示，例如：
+
+32位系统是这样的 Python 3.5.1 (v3.5.1:37a07cee5969, Dec? 6 2015, 01:38:48) [MSC v.1900 32 bit (Intel)] on win32
+64位系统是这样的Python 3.5.1 (v3.5.1:37a07cee5969, Dec? 6 2015, 01:54:25) [MSC v.1900 64 bit (AMD64)] on win32
+
+下载地址：
